@@ -1,0 +1,52 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4DA99F47"
+    android:orientation="vertical"
+    android:padding="50px"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search here with bookname"
+        android:layout_margin="10px"
+        android:id="@+id/bname"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5D5336"
+        android:layout_margin="20px"
+        android:text="Search"
+        android:textColor="#FAF5FAFA"
+        android:id="@+id/sbut"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5D5336"
+        android:layout_margin="20px"
+        android:text="Genre"
+        android:textColor="#FAF5FAFA"
+        android:id="@+id/genbut"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5D5336"
+        android:layout_margin="20px"
+        android:text="Language"
+        android:textColor="#FAF5FAFA"
+        android:id="@+id/langbut"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5D5336"
+        android:layout_margin="20px"
+        android:text="Author"
+        android:textColor="#FAF5FAFA"
+        android:id="@+id/authbut"/>
+
+</LinearLayout>

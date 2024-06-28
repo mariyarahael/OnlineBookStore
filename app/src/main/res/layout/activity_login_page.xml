@@ -1,0 +1,45 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4DA99F47"
+    android:orientation="vertical"
+    android:padding="50px"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5D5336"
+        android:layout_margin="20px"
+        android:text="Update Profile"
+        android:textColor="#FAF5FAFA"
+        android:id="@+id/profbut"/>
+
+<androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5D5336"
+        android:layout_margin="20px"
+        android:text="Publish/Post"
+        android:textColor="#FAF5FAFA"
+        android:id="@+id/ppbut"/>
+
+<androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5D5336"
+        android:layout_margin="20px"
+        android:text="Favourites"
+        android:textColor="#FAF5FAFA"
+        android:id="@+id/favbut"/>
+
+<androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5D5336"
+        android:layout_margin="20px"
+        android:text="Search"
+        android:textColor="#FAF5FAFA"
+        android:id="@+id/srchbut"/>
+
+</LinearLayout>
